@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+h1, h2, h3 {
+    line-height: 1.2;
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    line-height: 1.6;
+}
+header {
+    background-color: rgba(147, 128, 108, 0.1);
+    display: flex;
+    padding: 0 1em;
+}
+header > ul {
+    margin-left: auto;
+    align-self: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0 1em;
+}
+main > article {
+    background-color: rgba(147, 128, 108, 0.1);
+    width: 80vw;
+    margin: 1em auto;
+    padding: 0 1em;
+}
+footer {
+    margin-top: 1em;
+    padding: 0 1em;
+    background-color: rgba(147, 128, 108, 0.1);
+}
+
+.navbar {
+    list-style: none;
+}
+.navbar li {
+    display: inline;
+    padding-left: 0.2em;
+}

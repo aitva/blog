@@ -1,10 +1,10 @@
 baseurl = "http://blog.com/"
 languageCode = "en-us"
-title = "blog"
+title = "Blog Clalou"
 
-[[menus.main]]
+[[menu.main]]
+    name = "Home"
+    url = "/"
+[[menu.main]]
     name = "Archive"
     url = "/post/"
-[[menus.main]]
-    name = "home"
-    url = "/"
