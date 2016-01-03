@@ -1,5 +1,5 @@
 <header>
-    <h1>{{ .Title }}</h1>
+    <h1>{{ .Site.Title }}</h1>
     <ul class="navbar">
         {{ range .Site.Menus.main }}
         <li><a href="{{ .URL }}">{{ .Name }}</a></li>

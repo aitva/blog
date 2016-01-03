@@ -11,7 +11,7 @@
         {{ partial "header.html" . }}
         <main>
             <article>
-                <h2>Posts:</h2>
+                <h1>Last posts:</h1>
                 <ul>
                     {{ range first 10 (where .Data.Pages "Type" "post") }}
                     <li><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Description }}</li>
