@@ -41,3 +41,6 @@ header .nav-link {
 footer {
     text-align: center;
 }
+pre {
+    overflow: auto;
+}

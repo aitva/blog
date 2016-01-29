@@ -1,7 +1,7 @@
 +++
 Categories = ["blog"]
 Description = "Première article sur l'avancement du site."
-Tags = ["design", "web", "hugo"]
+Tags = ["design", "web", "markdown"]
 date = "2016-01-29T10:01:59+01:00"
 title = "Avancement"
 
@@ -24,37 +24,49 @@ Malgrès tout, cela ne nous empèche pas d'écrire des articles et de les poster
 Articles
 --------
 Les articles de ce blog sont écrit en Markdown[^1], c'est un "language" permettant
-la mise en forme du texte sous un format plutôt... hum, visuel. Par example :
+la mise en forme de texte via une syntax plutôt... visuel. Par example :
+
 ```markdown
 Titre 1
 =======
 
-Ci-dessus un titre en ASCII-art qui sera formaté en tire PDF
-ou HTML. Les retours à la ligne ne sont la que pour l'auteur et les
-paragraphes seront adaptés à l'écran du lecteur.
+Ci-dessus un titre Markdown de niveau 1. OK, on dirait qu'on essai de faire
+de la mise en page sur une machine à écrire, mais un processeur Markdown va
+transformer votre titre souligné en un jolie document PDF ou HTML.
+
+De plus, les retours à la ligne n'ont pas d'importance, la longueur des lignes
+sera adapté au format de destination. Par contre, les paragraphes sont conservés.
 
 Titre 2
 -------
 
-Ci-dessus un titre de seconde zone, toujours en ASCII-art. Enfin, pour notre
-bonheur une liste à puce :
+Ci-dessus un titre de niveau 2, toujours en ASCII, mais avec un simple trait.
+Enfin, pour completer notre exemple, une liste à puce :
 
 - item 1
 - item 2
 - item 3
+
+Et un tableau :
+
+Name    | Age
+--------|------
+Bob     | 27
+Alice   | 23
+
 ```
 
-Je pourrais continuer comme ça un moment, il est possible d'insérer des tableaux,
+Il est aussi possible d'insérer des URL,
 de formater du texte, d'ajouter des notes de bas de page, etc...
-Tout ça sans editeur de texte et avec un format lisible.
+Et tout ça avec le confort de notepad !
 
 Processeur Markdown
 -------------------
 
 La conversion de text Markdown vers un format plus agréable à lire
 est réaliser par un programme. Ce blog utilise Blackfriday[^2], c'est un
-processeur open-source permettant de faire la conversion `Markdown -> HTML` et
-`Markdown -> LaTeX`.
+processeur open-source permettant de faire la conversion Markdown &#8680; HTML et
+Markdown &#8680; LaTeX.
 
 La Suite
 --------
