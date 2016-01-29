@@ -8,10 +8,13 @@
         {{ partial "header.html" . }}
         <main>
             <article>
-                <h1>Last posts:</h1>
+                <h1>Derniers articles :</h1>
                 <ul>
                     {{ range first 10 (where .Data.Pages "Type" "post") }}
-                    <li><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Description }}</li>
+                    <li>
+                        <b><a href="{{ .Permalink }}">{{ .Title }}</a></b><br/>
+                        {{ dateFormat "02/01/06" .Date }} - {{ .Description }}
+                    </li>
                     {{ end }}
                 </ul>
             </article>

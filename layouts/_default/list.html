@@ -8,11 +8,12 @@
         {{ partial "header.html" . }}
         <main>
             <article>
-                <h1>Listing {{ .Title }}:</h1>
+                <h1>Listing {{ .Title }} :</h1>
                 <ul>
-                {{ range .Data.Pages }}
-                    <li>{{ .Title }}</li>
+                {{ range .Paginator.Pages }}
+                    <li>{{ .Render "archive" }}</li>
                 {{ end }}
+                {{ template "_internal/pagination.html" . }}
                 </ul>
             </article>
         </main>
