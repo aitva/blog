@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web on Blog</title>
-    <link>http://blog.com/tags/web/</link>
+    <link>http://aitva.github.io/blog/tags/web/</link>
     <description>Recent content in Web on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-fr</language>
     <lastBuildDate>Fri, 29 Jan 2016 10:01:59 +0100</lastBuildDate>
-    <atom:link href="http://blog.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://aitva.github.io/blog/tags/web/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Avancement</title>
-      <link>http://blog.com/post/avancement/</link>
+      <link>http://aitva.github.io/blog/post/avancement/</link>
       <pubDate>Fri, 29 Jan 2016 10:01:59 +0100</pubDate>
       
-      <guid>http://blog.com/post/avancement/</guid>
+      <guid>http://aitva.github.io/blog/post/avancement/</guid>
       <description>
 
 &lt;h2 id=&#34;avancement:1124d49b860fea4505812d06333f23bc&#34;&gt;Avancement&lt;/h2&gt;

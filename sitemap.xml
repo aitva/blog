@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.com/</loc>
+    <loc>http://aitva.github.io/blog/</loc>
     <lastmod>2016-01-29T10:01:59+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.com/post/avancement/</loc>
+    <loc>http://aitva.github.io/blog/post/avancement/</loc>
     <lastmod>2016-01-29T10:01:59+01:00</lastmod>
   </url>
   
