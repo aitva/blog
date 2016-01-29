@@ -1,8 +1,14 @@
 <header>
-    <h1><a href="/">{{ .Site.Title }}</a></h1>
-    <ul class="navbar">
-        {{ range .Site.Menus.main }}
-        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-        {{ end }}
-    </ul>
+    <div class="container">
+        <div class="title">
+            <a class="title-link" href="/">{{ .Site.Title }}</a>
+        </div>
+        <ul class="nav">
+            {{ range .Site.Menus.main }}
+            <li class="nav-item">
+                <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
 </header>

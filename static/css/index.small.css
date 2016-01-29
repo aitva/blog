@@ -1,0 +1,11 @@
+/**
+ * index.small.css deal with website disposition for smaller screen.
+ * author: aitva
+ * date: 2016/01/29
+**/
+header .container {
+    width: 100%;
+}
+main > article {
+    width: 100%;
+}
