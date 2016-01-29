@@ -1,5 +1,5 @@
-baseurl = "http://blog.com/"
-languageCode = "en-us"
+baseurl = "http://aitva.github.io/blog/"
+languageCode = "fr-fr"
 title = "Blog"
 
 [[menu.main]]
