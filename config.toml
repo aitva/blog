@@ -1,7 +1,0 @@
-baseurl = "http://blog.com/"
-languageCode = "en-us"
-title = "Blog"
-
-[[menu.main]]
-    name = "Archive"
-    url = "/post/"

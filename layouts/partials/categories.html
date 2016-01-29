@@ -1,5 +1,0 @@
-{{ if .Params.categories }}
-In {{ range .Params.categories }}<a href="/categories/{{ urlize . }}" >{{ title . }}</a>, {{ end }}
-{{ else }}
-Inconnu, 
-{{ end }}

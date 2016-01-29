@@ -1,5 +1,0 @@
-{{ if .Params.tags }}
-tags: {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}<a href="/tags/{{ urlize . }}" >{{ lower $e }}</a>{{ end }}
-{{ else }}
-sans tag
-{{ end }}

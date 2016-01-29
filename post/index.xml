@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Blog</title>
+    <link>http://blog.com/post/</link>
+    <description>Recent content in Posts on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Jan 2016 10:01:59 +0100</lastBuildDate>
+    <atom:link href="http://blog.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Avancement</title>
+      <link>http://blog.com/post/avancement/</link>
+      <pubDate>Fri, 29 Jan 2016 10:01:59 +0100</pubDate>
+      
+      <guid>http://blog.com/post/avancement/</guid>
+      <description>
+
+&lt;h2 id=&#34;avancement:1124d49b860fea4505812d06333f23bc&#34;&gt;Avancement&lt;/h2&gt;
+
+&lt;p&gt;Le site commence à prendre forme. Les articles sont triés par catégories et
+par tags. Une pages contenant les archives (inexistante) éxiste et une
+police un peu plus jolie est utilisé.&lt;/p&gt;
+
+&lt;p&gt;Evidement ce n&amp;rsquo;est pas terminé :&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;le blog n&amp;rsquo;a pas de nom&lt;/li&gt;
+&lt;li&gt;les couleurs sont&amp;hellip;&lt;/li&gt;
+&lt;li&gt;la mise en page laisse à désirer&lt;/li&gt;
+&lt;li&gt;quelques images ne seraient pas de trop&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Malgrès tout, cela ne nous empèche pas d&amp;rsquo;écrire des articles et de les poster.&lt;/p&gt;
+
+&lt;h2 id=&#34;articles:1124d49b860fea4505812d06333f23bc&#34;&gt;Articles&lt;/h2&gt;
+
+&lt;p&gt;Les articles de ce blog sont écrit en Markdown&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1124d49b860fea4505812d06333f23bc:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1124d49b860fea4505812d06333f23bc:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, c&amp;rsquo;est un &amp;ldquo;language&amp;rdquo; permettant
+la mise en forme de texte via une syntax plutôt&amp;hellip; visuel. Par example :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;Titre 1
+=======
+
+Ci-dessus un titre Markdown de niveau 1. OK, on dirait qu&#39;on essai de faire
+de la mise en page sur une machine à écrire, mais un processeur Markdown va
+transformer votre titre souligné en un jolie document PDF ou HTML.
+
+De plus, les retours à la ligne n&#39;ont pas d&#39;importance, la longueur des lignes
+sera adapté au format de destination. Par contre, les paragraphes sont conservés.
+
+Titre 2
+-------
+
+Ci-dessus un titre de niveau 2, toujours en ASCII, mais avec un simple trait.
+Enfin, pour completer notre exemple, une liste à puce :
+
+- item 1
+- item 2
+- item 3
+
+Et un tableau :
+
+Name    | Age
+--------|------
+Bob     | 27
+Alice   | 23
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Il est aussi possible d&amp;rsquo;insérer des URL,
+de formater du texte, d&amp;rsquo;ajouter des notes de bas de page, etc&amp;hellip;
+Et tout ça avec le confort de notepad !&lt;/p&gt;
+
+&lt;h2 id=&#34;processeur-markdown:1124d49b860fea4505812d06333f23bc&#34;&gt;Processeur Markdown&lt;/h2&gt;
+
+&lt;p&gt;La conversion de text Markdown vers un format plus agréable à lire
+est réaliser par un programme. Ce blog utilise Blackfriday&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1124d49b860fea4505812d06333f23bc:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1124d49b860fea4505812d06333f23bc:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, c&amp;rsquo;est un
+processeur open-source permettant de faire la conversion Markdown &amp;#8680; HTML et
+Markdown &amp;#8680; LaTeX.&lt;/p&gt;
+
+&lt;h2 id=&#34;la-suite:1124d49b860fea4505812d06333f23bc&#34;&gt;La Suite&lt;/h2&gt;
+
+&lt;p&gt;Esperons que cet article ouvre la voie à un site plus esthétique et
+d&amp;rsquo;inombrables articles !&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1124d49b860fea4505812d06333f23bc:1&#34;&gt;Markdown sur &lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34;&gt;Wikipedia&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1124d49b860fea4505812d06333f23bc:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1124d49b860fea4505812d06333f23bc:2&#34;&gt;Blackfriday sur &lt;a href=&#34;https://github.com/russross/blackfriday&#34;&gt;GitHub&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1124d49b860fea4505812d06333f23bc:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
