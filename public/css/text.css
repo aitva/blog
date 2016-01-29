@@ -1,0 +1,46 @@
+/**
+ * text.css deal with the formating of the text.
+ * It select font, set size, colors, ...
+ * author: aitva
+ * date: 2016/01/29
+**/
+body {
+    line-height: 1.6;
+    font-family: sans-serif;
+    color: #333;
+}
+body a {
+    text-decoration: none;
+    color: #4078C0;
+}
+body a:hover {
+    text-decoration: underline;
+    color: #4078C0;
+}
+h1, h2, h3 {
+    line-height: 1.2;
+}
+header a {
+    text-decoration: none;
+    color: #333;
+}
+header a:hover {
+    text-decoration: none;
+    color: #4078C0;
+}
+header .title-link {
+    font-size: 1.8em;
+    line-height: 1.2;
+    font-weight: bold;
+}
+header .nav-link {
+    font-size: 1.1em;
+    line-height: 1.2;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+}
+pre {
+    overflow: auto;
+}
