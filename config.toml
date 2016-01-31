@@ -4,5 +4,5 @@ languageCode = "fr-fr"
 title = "Blog"
 
 [[menu.main]]
-    name = "Archive"
+    name = "Explore"
     url = "/post/"

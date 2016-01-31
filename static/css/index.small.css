@@ -3,9 +3,29 @@
  * author: aitva
  * date: 2016/01/29
 **/
-header .container {
+header,
+main .container,
+footer {
+    border: 2px #E5E5E5 solid;
+    border-left: 0;
+    border-right: 0;
+}
+header .container, main .container {
     width: 100%;
 }
-main > article {
+
+header .title {
     width: 100%;
+    text-align: center;
+}
+header .nav {
+    margin: 0;
+    width: 100%;
+    background-color: #FAFAFA;
+}
+header .nav-link {
+    color: #4078C0;
+}
+header .nav-link:hover {
+    color: #4078C0;
 }

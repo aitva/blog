@@ -17,3 +17,4 @@ There is a lot to do. But the next steps are:
 * find nice colors
 * add fun pictures
 * write articles
+* correct menu-nav display on small screen

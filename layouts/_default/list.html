@@ -7,7 +7,7 @@
     <body>
         {{ partial "header.html" . }}
         <main>
-            <article>
+            <div class="container">
                 <h1>Listing {{ .Title }} :</h1>
                 <ul>
                 {{ range .Paginator.Pages }}
@@ -15,7 +15,7 @@
                 {{ end }}
                 {{ template "_internal/pagination.html" . }}
                 </ul>
-            </article>
+            </div>
         </main>
         {{ partial "footer.html" . }}
     </body>

@@ -3,7 +3,7 @@
         <div class="title">
             <a class="title-link" href="/">{{ .Site.Title }}</a>
         </div>
-        <ul class="nav">
+        <ul id="header-nav" class="nav">
             {{ range .Site.Menus.main }}
             <li class="nav-item">
                 <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
@@ -11,4 +11,21 @@
             {{ end }}
         </ul>
     </div>
+    <button id="header-nav-switch" class="nav-switch hidden" disabled><img src="img/menu.svg" /></button>
+    <script src="/js/headerdropdown.js"></script>
+    <script>
+    (function () {
+        "use strict";
+        let dropDown = new HeaderDropDown();
+        let resizeHandler = function () {
+            if (window.matchMedia("(max-width: 980px)").matches) {
+                dropDown.init();
+            } else {
+                dropDown.exit();
+            }
+        };
+        resizeHandler();
+        window.addEventListener("resize", resizeHandler, false);
+    }());
+    </script>
 </header>

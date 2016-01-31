@@ -7,7 +7,7 @@
     <body>
         {{ partial "header.html" . }}
         <main>
-            <article>
+            <div class="container">
                 <h1>Derniers articles :</h1>
                 <ul>
                     {{ range first 10 (where .Data.Pages "Type" "post") }}
@@ -17,7 +17,7 @@
                     </li>
                     {{ end }}
                 </ul>
-            </article>
+            </div>
         </main>
         {{ partial "footer.html" . }}
     </body>

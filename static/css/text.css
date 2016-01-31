@@ -5,7 +5,7 @@
  * date: 2016/01/29
 **/
 body {
-    line-height: 1.6;
+    line-height: 1.6em;
     font-family: sans-serif;
     color: #333;
 }
@@ -18,7 +18,7 @@ body a:hover {
     color: #4078C0;
 }
 h1, h2, h3 {
-    line-height: 1.2;
+    line-height: 1.2em;
 }
 header a {
     text-decoration: none;
@@ -30,12 +30,12 @@ header a:hover {
 }
 header .title-link {
     font-size: 1.8em;
-    line-height: 1.2;
+    line-height: 1.8em;
     font-weight: bold;
 }
 header .nav-link {
     font-size: 1.1em;
-    line-height: 1.2;
+    line-height: 1.4em;
     font-weight: bold;
 }
 footer {
@@ -43,4 +43,5 @@ footer {
 }
 pre {
     overflow: auto;
+    width: 100%;
 }
