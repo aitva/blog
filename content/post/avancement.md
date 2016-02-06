@@ -7,7 +7,7 @@ title = "Avancement"
 
 +++
 Avancement
-----------
+==========
 Le site commence à prendre forme. Les articles sont triés par catégories et
 par tags. Une pages contenant les archives (inexistante) éxiste et une
 police un peu plus jolie est utilisée.
