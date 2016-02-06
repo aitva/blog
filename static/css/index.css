@@ -20,10 +20,7 @@ body {
     flex-direction: column;
 }
 
-header, main .container, footer {
-    border: 2px #E5E5E5 solid;
-}
-header .container, main .container {
+header .container, main .container, footer .container {
     width: 980px;
     margin: 0 auto;
 }
@@ -31,12 +28,10 @@ header .container, main .container {
 header {
     background-color: #F5F5F5;
     display: flex;
-    border-radius: 0 0 5px 5px;
 }
 header .container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    height: 3em;
 }
 header .title {
     align-self: center;
@@ -50,12 +45,15 @@ header .nav-item {
     padding-left: 0.2em;
 }
 header .nav-switch {
-    height: 2em;
-    width: 2em;
+    height: 2.5em;
+    width: 2.5em;
+    line-height: 1em;
     position: absolute;
-    top: 1em;
+    padding: 5px 8px;
+    top: 0.5em;
     right: 0.5em;
-    /*background-image: image("/img/menu.svg");*/
+    border: 0;
+    background-color: transparent;
 }
 
 main {
@@ -66,12 +64,16 @@ main {
 }
 main .container {
     padding: 0 2em;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid #ddd;
 }
+
 footer {
+    width: 100%;
     margin-top: 1em;
-    padding: 0 1em;
-    border-radius: 5px 5px 0 0;
+}
+footer .container {
+    border-top: 1px solid #ddd;
 }
 
 .hidden {
