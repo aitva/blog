@@ -1,6 +1,6 @@
 +++
 Categories = ["blog"]
-Description = "Première article sur l'avancement du site."
+Description = "Premier article sur l'avancement du site."
 Tags = ["design", "web", "markdown"]
 date = "2016-01-29T10:01:59+01:00"
 title = "Avancement"
