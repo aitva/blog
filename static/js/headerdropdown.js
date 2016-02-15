@@ -33,6 +33,8 @@ var HeaderDropDown = function () {
             my.button.removeEventListener(my.clickHandler);
         }
     };
+    my.nav.classList.remove("nav-nojs");
+    my.nav.classList.add("nav-js");
 
     return that;
 }
