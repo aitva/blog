@@ -20,17 +20,19 @@ header .title {
     text-align: center;
 }
 header .nav {
-    left: 0;
-    top: 3em;
-    width: 100%;
     margin: 0;
-    position: absolute;
-    z-index: 9000;
-    box-shadow: inset 0 1px 0 #fff,0 8px 10px rgba(0,0,0,0.15);
+    width: 100%;
     padding: 7.5px 0;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid rgba(0,0,0,0.15);
+    box-shadow: inset 0 1px 0 #fff,0 8px 10px rgba(0,0,0,0.15);
     background-color: #F5F5F5;
+}
+header .nav-js {
+    left: 0;
+    top: 6.2em;
+    position: absolute;
+    z-index: 9000;
 }
 header .nav-link {
     color: #4078C0;
