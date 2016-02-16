@@ -30,7 +30,7 @@ var HeaderDropDown = function () {
             my.nav.classList.remove('hidden');
             my.button.classList.add('hidden');
             my.button.disabled = true;
-            my.button.removeEventListener(my.clickHandler);
+            my.button.removeEventListener('click', my.clickHandler);
         }
     };
     my.nav.classList.remove("nav-nojs");
