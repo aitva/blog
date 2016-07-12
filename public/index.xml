@@ -17,7 +17,7 @@
       <guid>http://aitva.github.io/blog/post/avancement/</guid>
       <description>
 
-&lt;h1 id=&#34;avancement:1124d49b860fea4505812d06333f23bc&#34;&gt;Avancement&lt;/h1&gt;
+&lt;h1 id=&#34;avancement&#34;&gt;Avancement&lt;/h1&gt;
 
 &lt;p&gt;Le site commence à prendre forme. Les articles sont triés par catégories et
 par tags. Une pages contenant les archives (inexistante) éxiste et une
@@ -34,9 +34,9 @@ police un peu plus jolie est utilisée.&lt;/p&gt;
 
 &lt;p&gt;Malgrès tout, cela ne nous empèche pas d&amp;rsquo;écrire des articles et de les poster.&lt;/p&gt;
 
-&lt;h2 id=&#34;articles:1124d49b860fea4505812d06333f23bc&#34;&gt;Articles&lt;/h2&gt;
+&lt;h2 id=&#34;articles&#34;&gt;Articles&lt;/h2&gt;
 
-&lt;p&gt;Les articles de ce blog sont écrit en Markdown&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1124d49b860fea4505812d06333f23bc:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1124d49b860fea4505812d06333f23bc:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, c&amp;rsquo;est un &amp;ldquo;language&amp;rdquo; permettant
+&lt;p&gt;Les articles de ce blog sont écrit en Markdown&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, c&amp;rsquo;est un &amp;ldquo;language&amp;rdquo; permettant
 la mise en forme de texte via une syntax plutôt&amp;hellip; visuel. Par example :&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;Titre 1
@@ -72,14 +72,14 @@ Alice   | 23
 de formater du texte, d&amp;rsquo;ajouter des notes de bas de page, etc&amp;hellip;
 Et tout ça avec le confort de notepad !&lt;/p&gt;
 
-&lt;h2 id=&#34;processeur-markdown:1124d49b860fea4505812d06333f23bc&#34;&gt;Processeur Markdown&lt;/h2&gt;
+&lt;h2 id=&#34;processeur-markdown&#34;&gt;Processeur Markdown&lt;/h2&gt;
 
 &lt;p&gt;La conversion de text Markdown vers un format plus agréable à lire
-est réaliser par un programme. Ce blog utilise Blackfriday&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1124d49b860fea4505812d06333f23bc:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1124d49b860fea4505812d06333f23bc:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, c&amp;rsquo;est un
+est réaliser par un programme. Ce blog utilise Blackfriday&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, c&amp;rsquo;est un
 processeur open-source permettant de faire la conversion Markdown &amp;#8680; HTML et
 Markdown &amp;#8680; LaTeX.&lt;/p&gt;
 
-&lt;h2 id=&#34;la-suite:1124d49b860fea4505812d06333f23bc&#34;&gt;La Suite&lt;/h2&gt;
+&lt;h2 id=&#34;la-suite&#34;&gt;La Suite&lt;/h2&gt;
 
 &lt;p&gt;Esperons que cet article ouvre la voie à un site plus esthétique et
 d&amp;rsquo;inombrables articles !&lt;/p&gt;
@@ -88,10 +88,10 @@ d&amp;rsquo;inombrables articles !&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:1124d49b860fea4505812d06333f23bc:1&#34;&gt;Markdown sur &lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34;&gt;Wikipedia&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1124d49b860fea4505812d06333f23bc:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:1124d49b860fea4505812d06333f23bc:2&#34;&gt;Blackfriday sur &lt;a href=&#34;https://github.com/russross/blackfriday&#34;&gt;GitHub&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1124d49b860fea4505812d06333f23bc:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Markdown sur &lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34;&gt;Wikipedia&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;Blackfriday sur &lt;a href=&#34;https://github.com/russross/blackfriday&#34;&gt;GitHub&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
