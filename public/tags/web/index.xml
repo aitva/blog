@@ -6,8 +6,45 @@
     <description>Recent content in Web on Glitch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Fri, 29 Jan 2016 10:01:59 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 14 Jul 2016 15:06:47 +0200</lastBuildDate>
     <atom:link href="http://aitva.github.io/blog/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Nouveau Thème</title>
+      <link>http://aitva.github.io/blog/post/nouveau_theme/</link>
+      <pubDate>Thu, 14 Jul 2016 15:06:47 +0200</pubDate>
+      
+      <guid>http://aitva.github.io/blog/post/nouveau_theme/</guid>
+      <description>
+
+&lt;h1 id=&#34;nouveau-thème&#34;&gt;Nouveau Thème&lt;/h1&gt;
+
+&lt;p&gt;Enfin un nouveau thème pour le blog ! Le précedent était copié
+sur les couleurs de Github et c&amp;rsquo;était plutôt&amp;hellip; impersonnel. On avait dur gris,
+du blanc, de la nuance de gris et de la nuance de blanc. C&amp;rsquo;était lisible mais
+pas très sexy comme divertissement. Mais ce n&amp;rsquo;est pas tout ! Le blog a maintenant
+un nom : Glitch. Bon pour l&amp;rsquo;instant ça reste encore flou. On changera peut-être
+de nom après avoir écrit plus de deux articles et il y a encore beaucoup de
+chose à faire.&lt;/p&gt;
+
+&lt;p&gt;Ce qui a changé :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;on a maintenant un jolie &amp;ldquo;Sunset Orange&amp;rdquo; comme couleur de banière&lt;/li&gt;
+&lt;li&gt;j&amp;rsquo;ai perdu beaucoup de temps à travailler sur des nuance d&amp;rsquo;orange et de blanc&lt;/li&gt;
+&lt;li&gt;les traits des cadres sont en &amp;ldquo;Pastel Brown&amp;rdquo; mais ça ne ce voit pas&lt;/li&gt;
+&lt;li&gt;et j&amp;rsquo;ai trouvé les couleurs sur &lt;a href=&#34;https://coolors.co/ff5e5b-ffeaee-7f675b-00cecb-ffed66&#34;&gt;coolors.co&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ce qu&amp;rsquo;il reste à faire :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;créer un system pour ajouter des images&lt;/li&gt;
+&lt;li&gt;écrire des articles&lt;/li&gt;
+&lt;li&gt;faire des glitch sympas en WebGL&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Avancement</title>
