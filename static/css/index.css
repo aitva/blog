@@ -18,6 +18,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-color: #FFF;
 }
 
 header .container, main .container, footer .container {
@@ -26,7 +27,7 @@ header .container, main .container, footer .container {
 }
 
 header {
-    background-color: #F5F5F5;
+    background-color: #FF5E5B;
     display: flex;
 }
 header .container {
@@ -68,7 +69,7 @@ main {
 main .container {
     padding: 0 2em;
     border-radius: 3px 3px 3px 3px;
-    border: 1px solid #ddd;
+    border: 1px solid #7F675B;
 }
 
 footer {
@@ -76,7 +77,7 @@ footer {
     margin-top: 1em;
 }
 footer .container {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #7F675B;
 }
 
 .hidden {

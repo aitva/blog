@@ -1,7 +1,7 @@
 baseurl = "http://aitva.github.io/blog/"
 canonifyurls = true
 languageCode = "fr-fr"
-title = "Blog"
+title = "Glitch"
 
 [[menu.main]]
     name = "Explore"
