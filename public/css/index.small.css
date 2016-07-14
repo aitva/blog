@@ -40,6 +40,10 @@ header .nav-link {
 header .nav-link:hover {
     color: #4078C0;
 }
+header .nav-item {
+    display: block;
+    padding-left: 0;
+}
 
 main .container {
     padding: 0 15px;
