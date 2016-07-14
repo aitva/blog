@@ -16,7 +16,7 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git push origin master
+#git push origin master
 
 #git subtree push --prefix=public git@github.com:aitva/blog.git gh-pages
 git subtree push --prefix=public https://github.com/aitva/blog.git gh-pages

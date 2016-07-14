@@ -6,7 +6,6 @@
 header,
 main .container,
 footer {
-    /*border: 2px #E5E5E5 solid;*/
     border: 0;
     border-left: 0;
     border-right: 0;
@@ -23,22 +22,16 @@ header .nav {
     margin: 0;
     width: 100%;
     padding: 7.5px 0;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid rgba(0,0,0,0.15);
-    box-shadow: inset 0 1px 0 #fff,0 8px 10px rgba(0,0,0,0.15);
-    background-color: #F5F5F5;
+    border-top: 1px solid #f76664;
+    /*border-bottom: 1px solid rgba(0,0,0,0.15);*/
+    box-shadow: inset 0 1px 0 #ff8280,0 8px 10px rgba(0,0,0,0.15);
+    background-color: #FF5E5B;
 }
 header .nav-js {
     left: 0;
     top: 6.2em;
     position: absolute;
     z-index: 9000;
-}
-header .nav-link {
-    color: #4078C0;
-}
-header .nav-link:hover {
-    color: #4078C0;
 }
 header .nav-item {
     display: block;
