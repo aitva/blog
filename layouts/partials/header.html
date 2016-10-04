@@ -12,22 +12,10 @@
         </ul>
     </div>
     <button id="header-nav-switch" class="nav-switch hidden" disabled>
-        <img src="/img/menu.svg" width="100%" height="100%"/>
+        <svg id="header-nav-switch-img" preserveAspectRatio="xMidYMid" viewBox="0 0 130 130" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="20" width="130" height="20" />
+            <rect x="0" y="60" width="130" height="20" />
+            <rect x="0" y="100" width="130" height="20" />
+        </svg>
     </button>
-    <script src="/js/headerdropdown.js"></script>
-    <script>
-    (function () {
-        "use strict";
-        let dropDown = new HeaderDropDown();
-        let resizeHandler = function () {
-            if (window.matchMedia("(max-width: 980px)").matches) {
-                dropDown.init();
-            } else {
-                dropDown.exit();
-            }
-        };
-        resizeHandler();
-        window.addEventListener("resize", resizeHandler, false);
-    }());
-    </script>
 </header>

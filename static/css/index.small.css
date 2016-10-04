@@ -41,3 +41,7 @@ header .nav-item {
 main .container {
     padding: 0 15px;
 }
+
+#header-nav-switch-img {
+    fill: white;
+}
