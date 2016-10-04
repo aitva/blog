@@ -1,0 +1,51 @@
+<script type="text/javascript">
+let blog = (function() {
+    "use strict"
+    let my = {};
+    my.loadError = function (err) {
+        throw new URIError("the script " + err.target.src + " is not accessible");
+    };
+    let that = {};
+    that.makeDownloadJSOnload = function (scriptName, callback) {
+        return function() {
+            let element = document.createElement("script");
+            element.src = scriptName;
+            element.type = "text\/javascript";
+            element.onerror = my.loadError;
+            if (callback) {
+                element.onload = callback;
+            }
+            document.body.appendChild(element);
+        };
+    };
+    that.initHeaderMenu = function () {
+        let dropDown = new HeaderDropDown();
+        let resizeHandler = function () {
+            if (window.matchMedia("(max-width: 980px)").matches) {
+                dropDown.init();
+            } else {
+                dropDown.exit();
+            }
+        };
+        resizeHandler();
+        window.addEventListener("resize", resizeHandler, false);
+    };
+    return that;
+}());
+</script>
+<script type="text/javascript">
+(function() {
+    "use strict";
+    function addScript(scriptName, callback) {
+        let downloadJSOnload = blog.makeDownloadJSOnload(scriptName, callback);
+        if (window.addEventListener) {
+            window.addEventListener("load", downloadJSOnload, false);
+        } else if (window.attachEvent) {
+            window.attachEvent("onload", downloadJSOnload);
+        } else {
+            window.onload = downloadJSOnload;
+        }
+    }
+    addScript("{{ .Site.BaseURL  }}/js/headerdropdown.js", blog.initHeaderMenu);
+}());
+</script>
