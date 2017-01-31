@@ -1,5 +1,4 @@
-baseurl = "blog.aitva.eu"
-canonifyurls = true
+baseurl = "https://blog.aitva.eu"
 languageCode = "fr-fr"
 title = "Glitch"
 
