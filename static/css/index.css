@@ -45,14 +45,13 @@ header .container, main .container, footer .container {
 header {
     background-color: #FF5E5B;
     display: flex;
+    box-shadow: 0 1px 4px -1px;
 }
 
 header .container {
     display: flex;
     flex-flow: row wrap;
-    /*height: 3em;*/
-    /*background-image: url("/blog/img/moss-crop-980.jpg");
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
 }
 header .title {
     align-self: center;
@@ -104,8 +103,7 @@ main {
 
 main .container {
     padding: 0 2em;
-    border-radius: 3px 3px 3px 3px;
-    border: 1px solid #7F675B;
+    box-shadow: 0 1px 4px -1px;
 }
 
 h1, h2, h3 {
@@ -123,8 +121,14 @@ footer {
     text-align: center;
 }
 
-footer .container {
-    border-top: 1px solid #7F675B;
+/*footer .container {
+    box-shadow: 0 -4px 4px -4px;
+}*/
+
+footer .container hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 .hidden {
