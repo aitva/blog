@@ -1,3 +1,3 @@
-<b><a href="{{ .Permalink }}">{{ .Title }}</a></b> le {{ dateFormat "02/01/06" .Date }}<br/>
-{{ partial "categories.html" . }}
+<h2><b><a href="{{ .Permalink }}">{{ .Title }}</a></b></h2>
+le {{ dateFormat "02/01/06" .Date }} {{ partial "categories.html" . }}<br/>
 {{ partial "tags.html" . }}
