@@ -11,14 +11,30 @@ html, body {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 *, *::after, *::before {
     box-sizing: border-box;
 }
+
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     background-color: #FFF;
+    
+    line-height: 1.6em;
+    font-family: sans-serif;
+    color: #333;
+}
+
+body a {
+    text-decoration: none;
+    color: #FF5E5B;
+}
+
+body a:hover {
+    text-decoration: underline;
+    color: #FF5E5B;
 }
 
 header .container, main .container, footer .container {
@@ -30,6 +46,7 @@ header {
     background-color: #FF5E5B;
     display: flex;
 }
+
 header .container {
     display: flex;
     flex-flow: row wrap;
@@ -40,24 +57,42 @@ header .container {
 header .title {
     align-self: center;
 }
+
 header .nav {
     margin-left: auto;
     align-self: center;
 }
+
 header .nav-item {
     display: inline;
-    padding-left: 0.2em;
+    padding-left: 1em;
 }
-header .nav-switch {
-    height: 2.5rem;
-    width: 2.5rem;
-    line-height: 1rem;
-    position: absolute;
-    padding: 5px 8px;
-    top: 1.85rem; /* (6.2 / 2) - (2.5 / 2)*/
-    right: 0.5rem;
-    border: 0;
-    background-color: transparent;
+
+header a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #FFED66;
+}
+
+header .title-link {
+    font-size: 2.5em;
+    line-height: 2.5em;
+    font-weight: bold;
+    color: #FFF;
+}
+
+header .title-link:hover {
+    color: #FFF;
+}
+
+header .nav-link {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    font-weight: bold;
 }
 
 main {
@@ -66,16 +101,28 @@ main {
     flex: 1;
     margin-top: 1em;
 }
+
 main .container {
     padding: 0 2em;
     border-radius: 3px 3px 3px 3px;
     border: 1px solid #7F675B;
 }
 
+h1, h2, h3 {
+    line-height: 1.2em;
+}
+
+pre {
+    overflow: auto;
+    width: 100%;
+}
+
 footer {
     width: 100%;
     margin-top: 1em;
+    text-align: center;
 }
+
 footer .container {
     border-top: 1px solid #7F675B;
 }

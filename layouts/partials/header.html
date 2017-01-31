@@ -4,18 +4,12 @@
             <a class="title-link" href="/">{{ .Site.Title }}</a>
         </div>
         <ul id="header-nav" class="nav">
-            {{ range .Site.Menus.main }}
             <li class="nav-item">
-                <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+                <a class="nav-link" href="/post/">Explore</a>
             </li>
-            {{ end }}
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
         </ul>
     </div>
-    <button id="header-nav-switch" class="nav-switch hidden" disabled>
-        <svg id="header-nav-switch-img" preserveAspectRatio="xMidYMid" viewBox="0 0 130 130" xmlns="http://www.w3.org/2000/svg">
-            <rect x="0" y="20" width="130" height="20" />
-            <rect x="0" y="60" width="130" height="20" />
-            <rect x="0" y="100" width="130" height="20" />
-        </svg>
-    </button>
 </header>

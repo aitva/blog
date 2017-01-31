@@ -1,7 +1,3 @@
 baseurl = "https://blog.aitva.eu"
 languageCode = "fr-fr"
 title = "Glitch"
-
-[[menu.main]]
-    name = "Explore"
-    url = "/post/"
