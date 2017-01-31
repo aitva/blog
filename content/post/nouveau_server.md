@@ -11,7 +11,7 @@ Nouveau serveur
 
 Le blog quitte Github Pages pour un serveur que j'héberge à la maison.
 J'ai installé un Raspberry PI 3 sur ma box, acheté le nom de domaine
-`aitva.eu`, lancé [Caddy](https://caddyserver.com) (un serveur HTTP),
+[aitva.eu](https://aitva.eu), lancé [Caddy](https://caddyserver.com) (un serveur HTTP),
 et vous voila sur mon magnifique site web !
 
 L'envers du décors
